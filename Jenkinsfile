@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SERVER = '32.236.11.193'
-        DEPLOY_DIR = '/home/ubuntu/JavaApp'
+        DEPLOY_DIR = '/home/ubuntu/java-deploy'
     }
 
     stages {
@@ -54,4 +54,4 @@ pipeline {
             }
         }
     }
-} 
+}
